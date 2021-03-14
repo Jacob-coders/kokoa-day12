@@ -1,0 +1,17 @@
+.playbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid white;
+  padding: 10px 20px;
+}
+.playbar__text {
+  margin-right: 40px;
+}
+.playbar__icon {
+  display: flex;
+  align-items: center;
+}
+.fa-pause {
+  margin: 0px 10px;
+}

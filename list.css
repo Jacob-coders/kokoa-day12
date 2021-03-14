@@ -1,0 +1,35 @@
+h3 {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.playing {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.list__img {
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+}
+.list__textbox {
+  margin-right: 65px;
+}
+.list i {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+}

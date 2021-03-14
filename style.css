@@ -1,0 +1,69 @@
+@import "reset.css";
+
+@import "header.css";
+/* screen */
+@import "profile.css";
+@import "list.css";
+@import "playbar.css";
+
+body {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.page {
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  height: 450px;
+  width: 250px;
+  border-radius: 25px;
+  box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
+}
+.play {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.play__img {
+  height: 180px;
+  width: 180px;
+  border-radius: 10px;
+}
+.play h2 {
+  margin: 5px 0px;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+.time__number {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  margin: 0px 2px;
+}
+.toolbar {
+  display: flex;
+  justify-content: center;
+}
+.toolbar__column {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toolbar__column:first-child,
+.toolbar__column:last-child {
+  color: rgba(255, 255, 255, 0.6);
+}
+.toolbar__column:nth-child(3) {
+  height: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+}
